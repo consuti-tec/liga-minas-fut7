@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Liga Minas Fut7",
+    "slug": "ligaminasfut7",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#083c82"
+    },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#083c82"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/70e25caf-7a00-4b49-90f7-8c0c5502d532"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#083c82"
+      },
+      "package": "com.sporti.ligaminasfut7",
+      "permissions": []
+    },
+    "ios": {
+      "buildNumber": "1.0",
+      "bundleIdentifier": "com.sporti.ligaminasfut7",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to collect the user's profile photo, which can be fictitious.",
+        "NSMicrophoneUsageDescription": "This app uses the microphone if the user wants to record a video"
+      }
+    },
+    "main": "node_modules/expo/AppEntry.js",
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "95c7e737-5fc2-4bfb-b855-40f23913bce1"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
